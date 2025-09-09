@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 2534937002
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 47df16d96cfae663e7be3c0731f534c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6160d65c2723c2712f571d656362e89c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 47df16d96cfae663e7be3c0731f534c0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: eedbd8d0d942a4ab2926fc12bbf33444, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b44f3f7f5f804ad4a7e6ba1fb0b694dc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Grid/Snake/HD/Body.prefab
+- Assets/Prefabs/Grid/Snake/HD/Head.prefab
+- Assets/Sprites/Grid/Background/HD/field-back.png
+- Assets/Prefabs/Grid/Snake/HD/Tail.prefab
+- Assets/Prefabs/Grid/Food/HD/FoodExtra.prefab
+- Assets/Prefabs/Grid/Food/HD/FoodRegular.prefab
+Dependencies: []

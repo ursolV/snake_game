@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6260905be74f5d8a87ed22152ab074, type: 3}
+  m_Name: FoodConfigs
+  m_EditorClassIdentifier: 
+  configs:
+  - foodName: FoodRegular
+    prefab: {fileID: 966929733348331674, guid: 2d069a063c8574f8983add60d24c8cdf, type: 3}
+    scoreValue: 1
+    spawnWeight: 100
+  - foodName: FoodExtra
+    prefab: {fileID: 2347831729738706851, guid: 2bfa0842219794bb1821a0e356f8b22c, type: 3}
+    scoreValue: 5
+    spawnWeight: 10

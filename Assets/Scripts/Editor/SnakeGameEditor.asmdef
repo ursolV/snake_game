@@ -1,0 +1,18 @@
+{
+    "name": "SnakeGameEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:71dea2d29ed434d9181f4540e83f3064"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
