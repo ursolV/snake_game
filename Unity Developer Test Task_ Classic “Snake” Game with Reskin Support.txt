@@ -1,0 +1,65 @@
+﻿Objective
+Create a playable version of the classic “Snake” game from old Nokia phones. The game should be implemented in Unity, allow reskinning via asset bundles, and include unit tests to validate core gameplay mechanics.
+
+
+Game Description
+If you’re unfamiliar with the original Nokia “Snake” game, here’s how it works:
+Gameplay Basics
+        •        The player controls a snake that moves continuously in one of four directions: up, down, left, or right.
+        •        The snake moves in discrete steps on a grid (like tiles).
+        •        The player changes the snake’s direction using arrow keys (or WASD).
+Goal
+        •        The snake’s objective is to collect “food” items that appear randomly on the grid.
+        •        Each time the snake eats food:
+        •        Its length increases by one segment.
+        •        The score increases by a fixed amount (e.g., +10 points).
+Game Over Conditions
+        •        The snake collides with itself (head hits its body).
+        •        The snake collides with the game area border (unless you choose to implement wrap-around mode — optional).
+Speed
+        •        The snake moves at a fixed initial speed.
+        •        Optionally, speed can slightly increase as the snake grows longer.
+
+
+Requirements
+Core Mechanics
+        •        Grid-based movement (no free-form movement — think discrete steps).
+        •        Snake grows after eating food.
+        •        Random food placement that does not overlap with the snake’s body.
+        •        Detect and handle game-over conditions.
+        •        Display current score.
+Reskinning with Asset Bundles
+        •        The snake’s appearance (head, body segment, tail), food appearance, and background should be loaded from an Asset Bundle.
+        •        The game should have a default skin embedded in the project so it’s playable without asset bundles.
+        •        Include at least one example asset bundle with a different visual theme to demonstrate the reskin system.
+User Interface
+        •        Start screen with “Play” and “Quit” options.
+        •        Game over screen showing the final score and a “Play Again” button.
+Technical
+        •        Use Unity’s 2022.3.59 or latest 2022 LTS version.
+        •        Code should follow clean and maintainable C# practices.
+        •        Organize scripts, prefabs, and assets logically.
+
+
+Unit Tests
+Create at least two unit tests (using Unity Test Framework) to check:
+Snake Growth Test
+        •        When the snake eats food, its length should increase by one segment.
+Collision Detection Test
+        •        When the snake’s head collides with its own body, the game should trigger a game-over state.
+(Optional Bonus Test): Food is never spawned on a tile occupied by the snake.
+
+
+Deliverables
+        •        Unity project folder (ready to open in Unity).
+        •        At least one extra Asset Bundle with a reskin.
+        •        Instructions on how to load and test the Asset Bundle.
+        •        Unit tests included in the project.
+
+
+Evaluation Criteria
+        •        Correct implementation of core Snake mechanics.
+        •        Working Asset Bundle reskin system.
+        •        Code readability and organization.
+        •        Functional unit tests.
+        •        Stability - no major bugs.
